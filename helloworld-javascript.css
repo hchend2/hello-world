@@ -1,3 +1,6 @@
+
+
+/* CSS Document */
 button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -12,10 +15,10 @@ button {
   border-radius: 12px;
   transition-duration: 0.4s;
   box-shadow: 0 9px 5px rgba(0,0,0,0.2);
-  -webkit-transition-duration: 0.4s; /* Safari */
-  -moz-transition-duration: 0.4s; /* Firefox */
-  -o-transition-duration: 0.4s; /* Opera */
-  -ms-transition-duration: 0.4s; /* IE */
+  /* -webkit-transition-duration: 0.4s; Safari */
+  /* -moz-transition-duration: 0.4s; Firefox */
+  /* -o-transition-duration: 0.4s; Opera */
+  /* -ms-transition-duration: 0.4s; IE */
 
 }
 
@@ -33,8 +36,14 @@ h2 {
   text-align: center;
 }
 h3 {
-  color: #777;
+  color: rgb(9, 45, 102);
   text-align: center;
+}
+
+
+#myButton {
+  display: block;
+  margin: auto;
 }
 button:hover {
   background-color: #45a049; /* Darker green */
@@ -45,52 +54,12 @@ button:active {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transform: translateY(4px);
 }
-button:focus {
-  outline: none;
+
+#myDiv1 {
+  /* margin-top: 90px; */
+  line-height: 15.5em;
 }
-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-  box-shadow: none;
-}
-button:disabled:hover {
-  background-color: #ccc;
-}
-button:disabled:active {
-  background-color: #ccc;
-  box-shadow: none;
-  transform: none;
-}
-button:disabled:focus {
-  outline: none;
-}
-button:disabled:focus-visible {
-  outline: none;
-}
-button:focus-visible {
-  outline: 2px solid #4CAF50;
-  outline-offset: 2px;
-}
-button:focus-visible:hover {
-  outline: 2px solid #4CAF50;
-  outline-offset: 2px;
-}
-button:focus-visible:active {
-  outline: 2px solid #4CAF50;
-  outline-offset: 2px;
-}
-button:focus-visible:disabled {
-  outline: none;
-}
-button:focus-visible:disabled:hover {
-  outline: none;
-}
-button:focus-visible:disabled:active {
-  outline: none;
-}
-button:focus-visible:disabled:focus {
-  outline: none;
-}
-button:focus-visible:disabled:focus-visible {
-  outline: none;
+
+#myDiv3 {
+  line-height: 20.0em;
 }
