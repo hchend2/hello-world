@@ -1,7 +1,3 @@
-
-// by default, the div is hidden
-document.getElementById("myDiv3").style.display = "none";
-
 // Function to show the div when the button is clicked
 // and hide it when clicked again
 // and fade in the div
@@ -15,10 +11,8 @@ myVar.onclick = function() {
     }
     else {
         thisDiv.style.display = "none";
-        
     }
 }
-
 // Function to fade in an element
 function fadeIn(thisEl) {
     thisEl.style.opacity = 0;
@@ -32,3 +26,9 @@ function fadeIn(thisEl) {
             clearInterval(this);
         }
     }, 255);}
+
+// function scrolltoProducts() {
+//     var element = document.getElementById("myproducts");
+//     element.scrollIntoView({ behavior: "smooth" });
+// }
+
